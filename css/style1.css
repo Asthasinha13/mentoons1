@@ -1,0 +1,194 @@
+header{
+    max-width: 100%;
+    height: 400px;
+}
+.logo{
+    max-width: 20%;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+}
+.banner{
+    background:linear-gradient(rgba(59, 25, 25, 0.4),#c74b26), url(../img/mentoons.jpg);
+    background-size: cover;
+    background-position:center;
+    max-height: 100%;
+    min-height: 100%;
+    margin-bottom: 0px;
+    align-items: 10%;
+}
+.banner-text{
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+}
+.banner-text h1{
+    font-size: 130px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.mySlides {display: none;}
+
+img {
+    vertical-align: middle;
+    width: 100%;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+  .h1{
+    font-size: 1px;
+  }
+  .headline{
+    font-size: 1px;
+    margin: auto;
+    text-align: center;
+  }
+  footer{
+    max-width: 100%;
+    min-height: 500px;
+    max-height: 700px;
+  }
+  .contact{
+    position: absolute;
+    left: 5%;
+    width: 200px;
+    font-size: 15px;
+}
+.social{
+    position: absolute;
+    margin: auto;
+    bottom: 100%;
+
+}
+.map{
+
+    position:absolute; 
+    margin: auto;
+    color: #110606;
+    width: 20%;
+}
+h2{
+    font-size: 1px;
+}
+}
+
+
+footer{
+    background:linear-gradient(rgba(59, 25, 25, 0.4),#c74b26), url(../img/mentoons.jpg);
+    background-size: cover;
+    background-position:center;
+    max-height: 100%;
+    min-height: 100%;
+    margin-bottom: 0rem;
+    align-items: 100%;
+
+    max-width: 100%;
+    min-height: 200px;
+    max-height: 600px;
+}
+.contact{
+    position: absolute;
+    left: 2%;
+    width: 200px;
+}
+.social{
+    position: absolute;
+    right: 45%;
+    top: 170%;
+}
+.intro{
+    margin: auto;
+    text-align: center;
+}
+.map{
+
+    position:absolute; 
+    right:0%; 
+    /* top:20px; */
+    color: #110606;
+    width: 20%;
+}
+.footer .footer-social {
+    position: relative;
+    margin-top: 20px;
+}
+
+.footer .footer-social a {
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    padding: 7px 0;
+    text-align: center;
+    border: 1px solid rgba(256, 256, 256, .3);
+    border-radius: 100%;
+    transition: .3s;
+}
+
+.footer .footer-social a i {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.footer .footer-social a:hover {
+    background: #e6dcf3;
+    border-color: #e6dcf3;
+}
+
+.footer .footer-social a:hover i {
+    color: #a85e32;
+}
